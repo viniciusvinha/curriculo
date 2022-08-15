@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+
+:root{
+    --color-base-text: #333333;
+    --color-red: #B44C4C;
+    --color-brown: #75372d;
+    --color-beige: #928854;
+    --color-light-beige: #d4ce9e;
+    --color-earthy-orange: #d8523d;
+
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+html,
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.occupation-name{
+    color: var(--color-red);
+}
+
+.color-linkedin{
+    color: var(--color-brown);
+    padding: 200px, 100px;
+}
+
+.color-github{
+    color: var(--color-beige);
+}
+
+.color-wpp{
+    color: var(--color-light-beige);
+}
+
+.color-email{
+    color: var(--color-earthy-orange);
+}
+
+.contact-button{
+    text-decoration: none;
+}
