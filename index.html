@@ -5,22 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculo Vitae - Vinicius Vinha</title>
+    <link rel="stylesheet" href="/curriculo/css/style.css">
 </head>
 <body>
     <header>
         <div>
-            <img src="" alt="Logotipo do Currículo"> <!--Icone ao lado do texto "CURRICULUM VITAE"-->
+            <img src="/curriculo/img/icon-curriculo-vitae.png" alt="Logotipo do Currículo" width="150px">
             <p>Curriculum Vitae</p>
         </div>
-        <img src="" alt="Foto pessoal">
+        <img src="/curriculo/img/profile-image.png" alt="Foto pessoal" width="200px">
         <div>
             <h1>Vinicius Vinha</h1>
-            <p>Desenvolvedor Java Júnior</p>
+            <p class="occupation-name">Web Development Student</p>
         </div>
-    </header> <!-- imagem(foto), nome, descrição(profissão) -->
+    </header>
     <section>
-        <h2>Informações Pessoais</h2>
-        <p>Sou uma pessoa que adora um quebra-cabeça, conversar e aprender coisas novas. Extremamente aberto para conversas, ainda mais filosóficas e que questionem o modo como agimos e observamos o mundo.
+        <h2 class="personal-info-title">Informações Pessoais</h2>
+        <p class="personal-info">Sou uma pessoa que adora um quebra-cabeça, conversar e aprender coisas novas. Extremamente aberto para conversas, ainda mais filosóficas e que questionem o modo como agimos e observamos o mundo.
             
             Ademais, sou um apaixonado e entusiasta da tecnologia, paixão esta que tem como força motriz a intenção de, através dela, fazer alguma mudança concreta e benéfica para o mundo em que vivemos.
             
@@ -35,47 +36,73 @@
             Você pode conferir meus projetos aqui: https://github.com/viniciusvinha</p>
     </section> <!--Informações Pessoais que serão colocadas-->
     <section>
-        <h2>Experiências Profissionais</h2>
+        <h2 class= professional-experience-title>Experiências Profissionais</h2>
         <div>
             <div>
-                <h3>Nome da Empresa</h3>
-                <p>Cargo - Data</p>
+                <h3 class="company-name">Vida Veda, Rio de Janeiro (home-office)</h3>
+                <p class="occupation-name">Suporte Técnico em Platforma Wordpress | 03/2021 - 10/2021</p>
             </div>
             <div>
-                <p>Descrição do cargo</p> <!-- colocar descrição da atividade no formato de lista não ordenado-->
+                    <ul class="description-occupation">
+                        <li>Atendimento e suporte para problemas na utilização da plataforma;</li>
+                        <li>Manutenção de usuários da plataforma;</li>
+                        <li>Testes de usuário na plataforma U+;</li>
+                        <li>Pequenos desenvolvimentos em PHP e JavaScript para integrações no Wordpress.</li>
+                    </ul>
             </div>
             <div>
-                <h3>Nome da Empresa</h3>
-                <p>Cargo - Data</p>
+                <h3 class="company-name">Multpainel, São Paulo</h3>
+                <p class="occupation-name">Estagiário de Marketing Digital | 07/2020 - 03/2021</p>
             </div>
             <div>
-                <p>Descrição do cargo</p> <!-- colocar descrição da atividade no formato de lista não ordenado-->
+                    <ul class="description-occupation">
+                        <li>Criação e desenvolvimento de conteúdos para mídias digitais;</li>
+                        <li>Gerenciamento de contas no Google Adwords;</li>
+                        <li>Design de conteúdo;</li>
+                        <li>Desenvolvimento de conteúdo para site e e-commerce.</li>
+                    </ul>
             </div>
             <div>
-                <h3>Nome da Empresa</h3>
-                <p>Cargo - Data</p>
+                <h3 class="company-name">Tuttonline, Santo André</h3>
+                <p class="occupation-name">Analista de Negócio Digital | 01/2018 - 05/2020</p>
             </div>
             <div>
-                <p>Descrição do cargo</p> <!-- colocar descrição da atividade no formato de lista não ordenado-->
+                <ul class="description-occupation" >
+                    <li>Análise do e-commerce;</li>
+                    <li>Otimização do e-commerce, cadastro de produtos e realização de vendas;</li>
+                    <li>Monitoramento do Google Adwords;</li>
+                    <li>Emissão de nota fiscal, através da plataforma Bling.</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="company-name">Fórum, São André</h3>
+                <p class="occupation-name">Auxiliar Administrativo | 01/2014 - 01/2015</p>
+            </div>
+            <div>
+                <ul class="description-occupation">
+                    <li>Jovem Aprendiz;</li>
+                    <li>Organização de Arquivos;</li>
+                    <li>Consulta de Processos;</li>
+                </ul>
             </div>
         </div>
     </section>
     <footer> <!-- personalizar os botões de uma forma bonita e clean-->
         <div>
-            <img src="" alt="Icone Linkedin">
-            <a href="https://www.linkedin.com/in/vinicius-vinha/">Linkedin</a>
+            <img  src="/curriculo/img/icon-linkedin.png" alt="Icone Linkedin" width="150px">
+            <a class="color-linkedin contact-button" target="_blank" href="https://www.linkedin.com/in/vinicius-vinha/">Linkedin</a>
         </div>
         <div>
-            <img src="" alt="Icone Github">
-            <a href="https://www.linkedin.com/in/vinicius-vinha/">Github</a>
+            <img src="/curriculo/img/icon-github.png" alt="Icone Github" width="150px">
+            <a class="color-github contact-button" target="_blank" href="https://github.com/viniciusvinha">Github</a>
         </div>
         <div>
-            <img src="" alt="Icone Whatsapp">
-            <a href="wa.me/5511943536315">Whatsapp</a>
+            <img src="/curriculo/img/icon-wpp.png" alt="Icone Whatsapp" width="150px">
+            <a class="color-wpp contact-button" target="_blank" href="https://web.whatsapp.com/send?phone=5511943536315"">Whatsapp</a> <!--Corrigir para integrar com o app e não apenas no web-->
         </div>
         <div>
-            <img src="" alt="Icone Email">
-            <a href="mailto:vinicius_vinha@hotmail.com">Email</a>
+            <img src="/curriculo/img/icon-email.png" alt="Icone Email" width="150px">
+            <a class="color-email contact-button" href="mailto:vinicius_vinha@hotmail.com">Email</a>
         </div>
     </footer>
 </body>
