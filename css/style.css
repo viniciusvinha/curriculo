@@ -44,3 +44,26 @@ body{
 .contact-button{
     text-decoration: none;
 }
+
+.flex{
+    display: flex;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.letter-spacing{
+    letter-spacing: 5px;
+}
+
+#container-titulo{
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+}
+
+#container-titulo img{
+    height: 30px;
+    margin-right: 10px;
+}
